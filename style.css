@@ -1,0 +1,559 @@
+body{
+	margin: 0;
+}
+
+.navigation-header{
+	position: relative;
+	margin-top: -10px;
+	list-style-type: none;
+	display: flex;
+	flex display: row;
+	justify-content: space-around;
+	color: white;
+	padding: 25px;
+	font-family: fantasy;
+	align-items: center;
+	background: rgba(163, 163, 163, 0.7);
+}
+
+.logo{
+	margin-left: 350px;
+	font-size: 35px;
+	word-spacing: -4px;
+	text-decoration: none;
+	margin-right: 150px;
+}
+
+.logo span:first-child{
+	color: white;
+}
+
+.logo span:last-child{
+	color: red;
+}
+
+.header-buttons{
+	text-decoration: none;
+	color: white;
+}
+
+.header-buttons:hover{
+	transition: all .3s linear;
+	color: red;
+}
+
+.sign-up-button{
+	margin-right: 200px;
+	margin-left: 150px;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 15px 15px;
+}
+
+.sign-up-button:hover{
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.video{
+	height: 100vh;
+}
+
+.video video{
+	margin-top: -100px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: -1;
+	background-color: #a3a3a3;
+	opacity: 0.8;
+}
+
+.header-text-on-video{
+	position: absolute;
+	color: white;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	top: 40%;
+	font-family: fantasy;
+}
+
+.work-hard-get-stronger-text{
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+}
+
+.header-text-on-video span:first-child{
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 5px 5px #000000;
+}
+
+.header-text-on-video span:last-child{
+	font-size: 100px;
+	font-weight: bold;
+	color: red;
+	text-shadow: 5px 5px #000000;
+}
+
+.become-a-member-button{
+	margin-top: 20px;
+	font-size: 20px;
+	background-color: red;
+	text-shadow: 1px 1px #000000;
+	padding: 20px;
+	margin-left: 820px;
+	margin-right: 820px;
+}
+
+.become-a-member-button:hover{
+	cursor: pointer;	
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.become-a-member-button a{
+	color: white;
+	text-decoration: none;
+}
+
+.section-top-part{
+	text-align: center;
+	align-items: center;
+}
+
+.section-top-text-left{
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+.section-top-text-right{
+	font-family: fantasy;
+	font-size: 30px;
+	color: red;
+}
+
+.wave-class{
+	margin-top: 15px;
+	margin-bottom: -5px;
+}
+
+.secion1-cards{
+	margin: 15%;
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 35px;
+}
+
+.section1-container{
+	display: flex;
+	align-items: center;
+}
+
+.section1-container-text{
+	margin-top: 10px;
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.section1-container-header-text{
+	margin-top: -12px;
+	font-size: 22px;
+	font-family: fantasy;
+}
+
+.section1-container-body-text{
+	margin-top: -13px;
+	font-size: 17px;
+}
+
+.discover-more-link{
+	margin-top: -2px;
+	font-size: 14px;
+	text-decoration: none;
+	color: red;
+}
+
+.section2{
+	margin-top: -140px;
+	position: relative;
+	height: 360px;
+	margin-bottom: 150px;
+}
+
+.training-gym-image img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.section2-text{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	top: 25%;
+}
+
+.section2-top-text span:nth-child(even) {
+	font-size: 50px;
+	font-weight: 200;
+	font-family: fantasy;
+	color: red;
+}
+
+.section2-top-text span:nth-child(odd) {
+	font-size: 50px;
+	font-weight: 200;
+	font-family: fantasy;
+	color: white;
+}
+
+.section2-body-text{
+	font-size: 20px;
+	color: white;
+}
+
+.become-a-member-button2 a{
+	text-decoration: none;
+	color: white;
+}
+
+.become-a-member-button2{
+	margin-top: 20px;
+	font-size: 17px;
+	font-family: fantasy;
+	text-decoration: none;
+	background-color: red;
+	padding: 20px;
+	margin-left: 820px;
+	margin-right: 820px;
+}
+
+.become-a-member-button2:hover{
+	cursor: pointer;	
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.section3-lower-part{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 45px;
+}
+
+.section3-left-column{
+	display: flex;
+	flex-direction: column;
+	margin-left: 320px;
+}
+
+.section3-left-column li {
+	margin: 12px;
+}
+
+.section3-left-tabs{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border: 5px solid #fff;
+	border-radius: 5px;	
+	box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+	padding: 10px;
+}
+
+.section3-left-tabs img{
+	margin-left: 20px;
+}
+
+.section3-left-tabs-text{
+	margin-left: 15px;
+	font-family: fantasy;
+	font-size: 22px;
+}
+
+.section3-left-tabs-text:hover{
+	cursor: pointer;
+	transition: all .2s linear;
+	color: red;
+}
+
+.view-all-schedules-button{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	font-family: fantasy;
+	font-size: 22px;
+	padding: 20px 20px;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.view-all-schedules-button:hover{
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.section-3-right-column{
+	margin-right: 350px;
+	margin-top: 25px;
+}
+
+.training-image-01{
+	border-radius: 5px;
+}
+
+.first-training-class-text{
+	font-size: 25px;
+	font-family: fantasy;
+}
+
+
+.section-3-right-column-paragraph{
+	font-size: 17px;
+	margin-bottom: 50px;
+
+}
+
+.view-schedule-button{
+	font-family: fantasy;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	padding: 15px 15px;
+}
+
+.view-schedule-button:hover{
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.section4{
+	margin-top: 150px;
+	position: relative;
+	height: 1000px;
+	align-items: center;
+}
+
+.girls-training-image img{
+	position: absolute;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.setion4-upper-part{
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	top: 10%;
+
+}
+
+.classes-text{
+	font-size: 30px;
+	font-family: fantasy;
+	color: white;
+}
+
+.schedule-text{
+	font-size: 30px;
+	font-family: fantasy;
+	color: red;
+}
+
+.section4-paragraph{
+	color: white;
+}
+
+.work-days{
+	margin-left: 50px;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	color: white;
+	font-family: fantasy;
+	font-size: 20px;
+	width: 90%;
+	top: 30%;
+}
+
+.days-name:hover{
+	cursor: pointer;
+	transition: all .5s linear;
+	color: red;
+}
+
+.section4-lower-part{
+	position: absolute;
+	width: 90%;
+	top: 40%;
+	color: white;
+	font-weight: 800;
+	display: grid;
+	grid-template-columns: repeat(4, 5fr);
+	margin-left: 100px;
+}
+
+.section4-table-content{
+	text-align: center;	
+	border: 2px solid white;
+	padding: 35px;
+}
+
+.section5{
+	margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.expert-text{
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+.trainers-text{
+	color: red;
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+.section5-trainers-cards{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
+}
+
+.trainers-card-contents{
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+	padding: 32px;
+	border-radius: 5px;
+}
+
+.trainers-card-contents p.trainer-type{
+	color: red;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: -10px;
+}
+
+.trainers-card-contents p.trainer-name{
+	font-size: 20px;
+	color: #404040;
+	font-family: fantasy;
+	text-align: left;
+}
+
+.trainers-card-contents p.trainer-description{
+	text-align: left;
+}
+
+.trainers-social-media{
+	text-align: left;
+	word-spacing: 20px;
+}
+
+.setion6{
+	margin-top: 150px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.man-lifts-weights-image{
+	position: relative;
+	height: 700px;
+}
+
+.man-lifts-weights-image img{
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.input-fields-background-image{
+	position: absolute;	
+	background-color: #fff;
+	top: 10%;
+	height: 60%;
+	width: 80%;
+	object-fit:cover;
+	border-radius: 5px;
+	margin-left: 100px;
+}
+
+.input-fields{
+	margin-top: 30px;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+}
+
+.name-field{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.email-field{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.subejct-field{
+	grid-column: span 2;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.message-field{
+	grid-column: span 2;
+	padding: 50px;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.send-message-button{
+	padding: 10px;
+	margin-right: 200px;
+	background-color: red;
+	color: white;
+	font-family: fantasy;
+}
+
+.send-message-button:hover{
+	cursor: pointer;
+	transition: background-color .5s linear;
+	background-color: silver;
+}
+
+.footer{
+	margin-top: -60px;
+	text-align: center;
+}
+
+.me-text{
+	color: red;
+}
